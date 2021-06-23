@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{8f4adddd-9b32-4511-b559-5005268eab1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\UI">
+      <UniqueIdentifier>{a3f0a8e8-45f5-4e4f-8c3a-f8a80eb5f032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{975c4669-b675-46d7-bbbc-b8eb589d38a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI">
+      <UniqueIdentifier>{23635f56-5332-4e5b-82f4-2c92d73fe029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Library">
+      <UniqueIdentifier>{81769dc7-1785-48f5-969f-2b34fa1a7411}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\MainWindow.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Library\ClassWidget.cpp">
+      <Filter>Source\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Library\ObjectBase.cpp">
+      <Filter>Source\Library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Content\UI\MainWindow.ui">
+      <Filter>Content\UI</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Content\UI\MainWindow.qrc">
+      <Filter>Content\UI</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Source\UI\MainWindow.h">
+      <Filter>Source\UI</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Library\ClassWidget.h">
+      <Filter>Source\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Library\ObjectBase.h">
+      <Filter>Source\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Library\WidgetStyle.h">
+      <Filter>Source\Library</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
